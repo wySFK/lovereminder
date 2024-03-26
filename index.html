@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Reminder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">Love Reminder</h1>
+    </header>
+    <main>
+      <div class="image-container">
+        <img src="kissuu.gif" alt="kissu" class="kissu" id="kissU">
+        <img src="love.gif" alt="love" class="love" id="loveU">
+        <img src="cutecute.gif" alt="cute" class="cute" id="cuteU">
+
+        <audio controls autoplay loop>
+            <source src="morning.mp3" type="audio/mp3" />
+          </audio>
+      </div>
+      <div class="poetry" id="poetry">
+        <!-- Poetry content will be updated dynamically -->
+      </div>
+      <div class="button-group">
+        <button id="morningBtn" class="time-btn">Morning Poetry</button>
+        <button id="afternoonBtn" class="time-btn">Afternoon Poetry</button>
+        <button id="eveningBtn" class="time-btn">Evening Poetry</button>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
