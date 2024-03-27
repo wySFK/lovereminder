@@ -4,7 +4,7 @@
     const nextPageBtn = document.getElementById('nextPageBtn');
     const poetryContainer = document.getElementById('poetryContainer');
     const imageContainer = document.querySelector('.image-container');
-    const introText = "<h1 class='title'>Our Journey Together: Cherished Memories.</h1>";
+    const introText = "<h1 class='title'>Our Journey Together</h1>";
     // Function to update poetry content
     function updatePoetry(content) {
       poetryContainer.innerHTML = content;

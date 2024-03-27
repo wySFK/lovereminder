@@ -19,17 +19,19 @@ body {
 
 #cutecutecuteU {
   position: absolute;
-  bottom: 190px; /* Adjust top position as needed */
+  bottom: 140px; /* Adjust top position as needed */
   left: 50%;
   transform: translateX(-50%);
-  width: 320px;
+  width: 348px;
 }
 
 #backgroundAudio {
   position: absolute;
-  top: 1px; /* Adjust bottom position as needed */
-  left: 90%;
-  transform: translateX(-50%);
+  right: 70%;
+  top: 1%;
+  transform: translateY(-50%);
+  width: 100px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
 }
 
 h2 {
@@ -38,14 +40,15 @@ h2 {
 }
 
 .title {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 420px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .pages-btn {
   padding: 12px 24px;
-  font-size: 20px;
+  font-size: 13px;
   cursor: pointer;
   background-color: #e44949;
   color: black;
@@ -62,17 +65,20 @@ h2 {
 .poetry p {
   padding: 15px; /* Added padding for paragraphs */
   margin-bottom: 10px; /* Added margin bottom for paragraphs */
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .button-group {
   display: flex;
-  justify-content: space-between; /* Adjust spacing between buttons */
+  justify-content: space-between;
+  margin-bottom: 5px; /* Adjust margin-top as needed to move the buttons up */
 }
 
 #poetryContainer {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 10px;
+  margin-top: 20px; /* Adjust margin-top as needed to move the container up */
 }
 
 #nextPageBtn {
@@ -81,4 +87,42 @@ h2 {
 
 #previousPageBtn {
   margin-left: 260px;
+}
+
+/* Adjustments for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 30px; /* Reduce font size for the title */
+    margin-bottom: 420px; /* Adjust margin bottom for the title */
+  }
+
+  .poetry-title {
+    font-size: 24px; /* Reduce font size for poetry titles */
+  }
+
+  .poetry p {
+    font-size: 14px; /* Reduce font size for poetry paragraphs */
+    padding: 10px; /* Adjust padding for paragraphs */
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .button-group {
+    margin-top: 5px; /* Adjust margin-top for the button group */
+  }
+
+  #nextPageBtn,
+  #previousPageBtn {
+    margin-left: 10px; /* Adjust margin for next/previous page buttons */
+    margin-right: 10px; /* Adjust margin for next/previous page buttons */
+  }
+
+  #poetryContainer {
+    margin-top: 5px; /* Adjust margin-top for the poetry container */
+  }
+
+  #backgroundAudio {
+    width: 30%; /* Make the audio element fill the width of the container */
+    max-width: 300px; /* Set a maximum width for the audio element */
+    margin-bottom: 70px; /* Center the audio element horizontally */
+  }
 }
