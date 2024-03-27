@@ -88,39 +88,4 @@ h2 {
   margin-left: 130px; /* Adjusted margin for smaller screens */
 }
 
-/* Adjustments for smaller screens (e.g., mobile devices) */
-@media only screen and (max-width: 768px) {
-  .title {
-    font-size: 20px; /* Further reduced font size for smaller screens */
-    margin-bottom: 300px; /* Adjusted margin bottom for smaller screens */
-  }
 
-  .pages-btn {
-    padding: 8px 16px; /* Further reduced padding for smaller screens */
-    font-size: 15px; /* Further reduced font size for smaller screens */
-    border-radius: 12px; /* Further reduced border radius for smaller screens */
-    margin-right: 20px; /* Adjusted margin for smaller screens */
-  }
-
-  .poetry p {
-    font-size: 15px; /* Further reduced font size for smaller screens */
-    padding: 8px; /* Further adjusted padding for smaller screens */
-  }
-
-  #nextPageBtn,
-  #previousPageBtn {
-    margin-left: 20px; /* Adjusted margin for smaller screens */
-    margin-right: 20px; /* Adjusted margin for smaller screens */
-  }
-
-  #poetryContainer {
-    font-size: 6px; /* Further reduced font size for smaller screens */
-    margin-top: 5px; /* Further adjusted margin top for smaller screens */
-  }
-
-  #backgroundAudio {
-    width: 100%; /* Adjusted width for smaller screens */
-    max-width: 200px; /* Set maximum width for smaller screens */
-    margin-bottom: 50px; /* Adjusted margin bottom for smaller screens */
-  }
-}
