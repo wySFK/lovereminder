@@ -1,5 +1,5 @@
 body {
-  margin-top: 10px; /* Reduced margin-top for smaller screens */
+  margin-top: 30px;
   font-family: "Courier";
   background-color: #ffe6f2;
   color: black;
@@ -11,81 +11,90 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  background-color: #ffe6f2;
-  padding: 10px; /* Increased padding for container */
+  padding: 10px;
 }
+
+/* Other styles... */
+
+audio {
+  position: absolute;
+  bottom: 5px; /* Position at the top of the container */
+  right: 10px; /* Adjust left position as needed */
+  width: 100px; /* Adjust the width of the audio element */
+}
+
 
 #cutecutecuteU {
-  position: absolute;
-  bottom: 150px; /* Adjusted bottom position for smaller screens */
+  width: 330px; /* Adjusted width for the image */
+  height: auto;
+  position: absolute; /* Set images to absolute positioning */
   left: 50%;
-  transform: translateX(-50%);
-  width: 300px; /* Reduced width for smaller screens */
+  transform: translateX(-50%); /* Center horizontally */
+  bottom: 35%; /* Adjusted bottom position for the image */
 }
 
-#backgroundAudio {
-  position: absolute;
-  right: 50%;
-  top: 10px; /* Adjusted top position for smaller screens */
-  transform: translateX(50%);
-  width: 100px; /* Reduced width for smaller screens */
-  height: 8px; /* Reduced height for smaller screens */
+
+
+#nextPageBtn {
+  font-size: 12px;
+  position: absolute; /* Position buttons absolutely */
+  bottom: 10px; /* Adjusted bottom position for the next page button */
+  left: 65%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  font-family: "Courier", monospace;
+  padding: 10px 24px;
+  box-shadow: 1px 1px 2px rgb(37, 37, 37);
+  border: 2px solid #000000;
+  background-color: #e44949;
+  color: rgb(5, 5, 5);
+  transition: 0.3s;
+  display: block;
 }
 
-h2 {
-  font-size: 24px; /* Reduced font size for smaller screens */
-  margin-right: 20px; /* Reduced margin for smaller screens */
+#previousPageBtn {
+  font-size: 12px;
+  position: absolute; /* Position buttons absolutely */
+  bottom: 10px; /* Adjusted bottom position for the previous page button */
+  right: 65%; /* Center horizontally */
+  transform: translateX(50%); /* Center horizontally */
+  font-family: "Courier", monospace;
+  padding: 10px 24px;
+  box-shadow: 1px 1px 2px rgb(37, 37, 37);
+  border: 2px solid #000000;
+  background-color: #e44949;
+  color: rgb(5, 5, 5);
+  transition: 0.3s;
+  display: block;
 }
 
 .title {
-  font-size: 24px; /* Reduced font size for smaller screens */
-  text-align: center;
-  margin-bottom: 300px; /* Reduced margin bottom for smaller screens */
+  font-family: 'Segoe Script', cursive;
+  font-size: 35px;
+  color: #e44949;
+  margin-top: 10px; /* Adjusted margin top for the title */
 }
 
 .pages-btn {
-  padding: 10px 20px; /* Reduced padding for smaller screens */
-  font-size: 15px; /* Reduced font size for smaller screens */
-  cursor: pointer;
-  background-color: #e44949;
-  color: black;
-  border-radius: 16px; /* Reduced border radius for smaller screens */
-  border: 2px solid #000;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-  margin-right: 40px; /* Adjusted margin for smaller screens */
-}
-
-.pages-btn:hover {
-  background-color: #ff6b6b;
+  padding: 8px 16px; /* Reduced padding for smaller screens */
+  font-size: 14px; /* Reduced font size for smaller screens */
+  margin-right: 20px; /* Adjusted margin for smaller screens */
 }
 
 .poetry p {
-  padding: 10px; /* Adjusted padding for smaller screens */
-  margin-bottom: 5px; /* Adjusted margin bottom for smaller screens */
-  font-size: 20px; /* Reduced font size for smaller screens */
-  font-family: 'Times New Roman', Times, serif;
+  padding: 8px;
+  margin-bottom: 10px; /* Increased margin bottom for better spacing */
+  font-size: 18px; /* Reduced font size for smaller screens */
 }
 
 .button-group {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px; /* Adjusted margin bottom for smaller screens */
+  margin-bottom: 20px; /* Increased margin bottom for better spacing */
 }
 
 #poetryContainer {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 8px; /* Reduced font size for smaller screens */
-  margin-top: 10px; /* Adjusted margin top for smaller screens */
+  font-size: 14px; /* Reduced font size for smaller screens */
+  margin-top: 10px;
 }
-
-#nextPageBtn {
-  margin-right: 130px; /* Adjusted margin for smaller screens */
-}
-
-#previousPageBtn {
-  margin-left: 130px; /* Adjusted margin for smaller screens */
-}
-
-
