@@ -16,6 +16,7 @@ body {
   padding: 10px;
 }
 
+
 /* Other styles... */
 
 audio {
@@ -46,7 +47,7 @@ audio {
   font-family: "Courier", monospace;
   padding: 10px 24px;
   box-shadow: 1px 1px 2px rgb(37, 37, 37);
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   background-color: #e44949;
   color: rgb(5, 5, 5);
   transition: 0.3s;
@@ -62,7 +63,7 @@ audio {
   font-family: "Courier", monospace;
   padding: 10px 24px;
   box-shadow: 1px 1px 2px rgb(37, 37, 37);
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   background-color: #e44949;
   color: rgb(5, 5, 5);
   transition: 0.3s;
@@ -82,11 +83,80 @@ audio {
   margin-right: 20px; /* Adjusted margin for smaller screens */
 }
 
+/* Adjusted styles to troubleshoot white line issue */
+/* Adjusted styles for poetry paragraphs and lists */
 .poetry p {
-  padding: 8px;
-  margin-bottom: 10px; /* Increased margin bottom for better spacing */
-  font-size: 18px; /* Reduced font size for smaller screens */
+  padding: 12px;
+  margin: 0 0 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.poetry ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.poetry ul li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.poetry ul li::before {
+  content: "\2022"; /* Bullet character */
+  color: #e44949;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: 0;
+}
+
+/* Hover effect for list items */
+.poetry ul li:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+/* Improved readability for smaller screens */
+@media only screen and (max-width: 600px) {
+  .poetry p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+  }
+
+  .poetry ul {
+    padding-left: 15px;
+  }
+}
+
+/* Adjusted margin for the page */
+.page {
+  margin-bottom: 20px; /* Increased margin bottom for better spacing */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .button-group {
   display: flex;
