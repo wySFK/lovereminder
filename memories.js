@@ -17,6 +17,12 @@
       "<h2 class='poetry-title'>Our second Date</h2><p>February 20,2024.</p><p>I couldn't believe that akong crush, who is now the woman nga I admire the most, agreed na makig second date sakoa. Grabe akong na feel ato like thrilling og heartwarming. I remember our first date clearly, it felt like dugay na us nagkaila, as if nga we are connected in past lives or something similar. We had an incredible time together ato, like laughing and enjoying each other's company nga naabot nalang sa point nakalimot na us sa oras og dugay nakauli. I planned for us satong second date nga mag unlmited wings ta near St.Guzman, nga place tawag kay Wishbone. nag lakaw ra us ato and grabe ka init ato nga adlawa tas hapon yun. I remember nga ako ra nag order atong unli wings tapos ikaw love nag order og beef steak. Tapos nag imperssions pako ato like nina Tito Boy, spongebob og squidward just trying to make laugh. Tapos nag joke pakong complained nga small seats kaayo tas nag suggest dapat tapad us nag eat ato nga time. After, ato nag storyahanay ta about satong courses or like upcoming projects, research og thesis then nag storya2 pata tong unsa gwapo buhaton nga project para ma gamit samong capstone etc. After, paghuman natog eat katugon kaayo ko ato sobra ka busog love then we talked about our plans og aspirations sa life, then nag decide us nga mag adto sa Abreeza Mall para mag milk tea didto dapit sa food court. At the mall ato, nga time nag take us pictures of us share tag stories abotu our selves og our interests. I felt so grateful that we were spending that time together. Later ato sa gabie, we walked pauwi para manguli na us while ga hold tag hands, it was a memorable and good day for me just being with you love. Eventually, nag taxi us pauwi, and chershing every moment we had togehter. This memory of us love satong second date is always something I will always treasure.</p>",
       "<h2 class='poetry-title'>Our third Date</h2><p></p>",
       "<h2 class='poetry-title'>Our fourth date</h2><p></p>",
+      "<h2 class='poetry-title'>Our fifth date</h2><p></p>",
+      "<h2 class='poetry-title'>Our sixth date</h2><p></p>",
+      "<h2 class='poetry-title'>Our seventh date</h2><p></p>",
+      "<h2 class='poetry-title'>Our eight date</h2><p></p>",
+      "<h2 class='poetry-title'>Our ninth date</h2><p></p>",
+      "<h2 class='poetry-title'>Our tenth date</h2><p></p>",
     ];
 
     let currentPage = 0;
