@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin-top: 30px;
   font-family: "Courier";
-  background-color: #ffe6f2;
+  background-color:  #dbd4d4f3;
   color: black;
 }
 
@@ -20,8 +20,6 @@ body {
   font-size: 16px;
 }
 
-
-
 audio{
   
   margin-top: 245px;
@@ -30,25 +28,25 @@ audio{
 #kissU, #loveU, #cuteU {
   width: 300px;
   height: auto;
-  position: absolute; /* Set images to absolute positioning */
+  position: absolute; 
 }
 
 #kissU {
-  top: 190px; /* Adjust top position as needed */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center horizontally */
+  top: 190px;
+  left: 50%; 
+  transform: translateX(-50%);
 }
 
 #loveU {
-  top: 190px; /* Adjust top position as needed */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center horizontally */
+  top: 190px; 
+  left: 50%; 
+  transform: translateX(-50%); 
 }
 
 #cuteU {
-  top: 190px; /* Adjust top position as needed */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center horizontally */
+  top: 190px;
+  left: 50%; 
+  transform: translateX(-50%); 
 }
 
 .title {
@@ -79,7 +77,7 @@ audio{
   margin: 10px auto;
   font-family: "Courier", monospace;
   margin-bottom: 10px;
-  background-color: #e44949;
+  background-color: #f5f5f5;;
   color: rgb(5, 5, 5);
   border-radius: 12px;
   border: 2px solid #000000;
@@ -102,7 +100,7 @@ audio{
   margin: 10px auto;
   font-family: "Courier", monospace;
   margin-bottom: 10px;
-  background-color: #e44949;
+  background-color: #f5f5f5;;
   color: rgb(5, 5, 5);
   border-radius: 12px;
   border: 2px solid #000000;
@@ -111,8 +109,8 @@ audio{
   display: block;
   width: fit-content;
   position: absolute;
-  top: 20px; /* Adjust the top position as needed */
-  right: 7px; /* Adjust the left position as needed */
+  top: 20px; 
+  right: 7px; 
   text-decoration: none;
 }
 
